@@ -45,3 +45,14 @@ android {
     }
 }
 ```
+
+```java
+public final class ActivityMainBinding implements ViewBinding {
+  @NonNull
+  private final ConstraintLayout rootView;
+
+  @NonNull
+  public final Button bindingButton;
+  ...
+  
+```
